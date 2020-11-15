@@ -1,0 +1,8 @@
+H, M=map(int, input().split(' '))
+if 45<=M<=59 :
+    print(H, M-45)
+elif H>=1 :
+    if 0<=M<45 :
+        print(H-1,M+15)
+elif H == 0:
+    print(H+23, M+15)
